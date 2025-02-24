@@ -2,6 +2,14 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HeaderForwarder", "HeaderForwarder\HeaderForwarder.csproj", "{7FE06619-AA31-4D1F-8DEE-4A611C10A2FE}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{793E215F-63B9-4CD1-B3A7-F4A9B559D7BE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "docs", "docs", "{FD60137B-F301-4B13-A69D-3A8549520A9A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "samples", "samples", "{90D0EDBD-6D2D-42A8-9468-13A6F6DD5D86}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{2485C8C0-13C0-4297-853C-2829169A417D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -12,5 +20,8 @@ Global
 		{7FE06619-AA31-4D1F-8DEE-4A611C10A2FE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7FE06619-AA31-4D1F-8DEE-4A611C10A2FE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7FE06619-AA31-4D1F-8DEE-4A611C10A2FE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{7FE06619-AA31-4D1F-8DEE-4A611C10A2FE} = {793E215F-63B9-4CD1-B3A7-F4A9B559D7BE}
 	EndGlobalSection
 EndGlobal
